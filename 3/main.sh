@@ -5,6 +5,8 @@ gcc -g -m64 -nostartfiles -o main main.o
 
 ./main < input.txt
 
+python part2.py < input.txt
+
 # Tests
 #echo 0000 | ./main # expect 0000, 1111, 0
 #echo 0100 | ./main # expect 0100, 1011, 44
